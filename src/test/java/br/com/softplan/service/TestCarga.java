@@ -21,7 +21,7 @@ public class TestCarga {
     }
 
     @Test
-    public void testCalculaCustpCargaPadrao() {
+    public void testCalculaCustoCargaPadrao() {
         double result = carga.calculaCustoCarga(8,100);
         assertEquals(6.0, result);
     }
