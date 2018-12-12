@@ -17,10 +17,10 @@ public class VeiculosServiceImpl implements VeiculosService {
 
 
     @Autowired
-    private List<? extends Veiculo> veiculos;
+    private List<Veiculo> veiculos;
 
     @Override
-    public Map< Object, String > getVeiculos(){
+    public Map< Object, String > getVeiculosAsMap(){
         Map< Object, String > veiculos = new HashMap<>();
         for (Veiculo veiculo : this.veiculos) {
             veiculos.put(veiculo.getName(),veiculo.getLabel());
@@ -28,8 +28,13 @@ public class VeiculosServiceImpl implements VeiculosService {
         return veiculos;
     }
 
+    public List<Veiculo> getVeiculos(){
+        return this.veiculos;
+    }
+
     @Override
     public Veiculo findVeiculoByName(String name) throws Exception{
         return veiculos.stream().filter(veiculo -> ((Veiculo) veiculo).getName().equals(name)).findAny().orElseThrow(Exception::new);
     }
+
 }

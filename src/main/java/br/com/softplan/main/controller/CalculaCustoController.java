@@ -29,7 +29,7 @@ public class CalculaCustoController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView init() {
         ModelAndView modelAndView = new ModelAndView("index", "logisticaDTO", new LogisticaDTO());
-        modelAndView.getModel().put("veiculos", veiculosService.getVeiculos());
+        modelAndView.getModel().put("veiculos", veiculosService.getVeiculosAsMap());
         return modelAndView;
     }
 
