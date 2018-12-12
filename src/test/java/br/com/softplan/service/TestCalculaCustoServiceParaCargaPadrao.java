@@ -3,7 +3,7 @@ package br.com.softplan.service;
 import br.com.softplan.main.service.api.veiculos.Carga;
 import br.com.softplan.main.service.api.commons.LogisticaDTO;
 import br.com.softplan.main.service.api.veiculos.Veiculo;
-import br.com.softplan.main.service.api.veiculos.VeiculosService;
+import br.com.softplan.main.service.api.VeiculosService;
 import br.com.softplan.main.service.impl.CalculaCustoServiceImpl;
 import br.com.softplan.main.service.impl.carga.CargaPadrao;
 import br.com.softplan.main.service.impl.veiculos.CaminhaoBau;
@@ -15,13 +15,11 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 
 import static junit.framework.TestCase.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
-@AutoConfigureMockMvc
 @RunWith(MockitoJUnitRunner.class)
 public class TestCalculaCustoServiceParaCargaPadrao {
 

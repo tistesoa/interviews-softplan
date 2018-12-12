@@ -5,7 +5,7 @@ import br.com.softplan.main.service.api.commons.LogisticaDTO;
 import br.com.softplan.main.service.api.veiculos.Carga;
 import br.com.softplan.main.service.api.commons.TipoVia;
 import br.com.softplan.main.service.api.veiculos.Veiculo;
-import br.com.softplan.main.service.api.veiculos.VeiculosService;
+import br.com.softplan.main.service.api.VeiculosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

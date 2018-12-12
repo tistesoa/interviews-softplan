@@ -1,4 +1,6 @@
-package br.com.softplan.main.service.api.veiculos;
+package br.com.softplan.main.service.api;
+
+import br.com.softplan.main.service.api.veiculos.Veiculo;
 
 import java.util.Map;
 

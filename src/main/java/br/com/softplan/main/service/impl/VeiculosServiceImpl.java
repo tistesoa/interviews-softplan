@@ -1,6 +1,6 @@
-package br.com.softplan.main.service.impl.veiculos;
+package br.com.softplan.main.service.impl;
 
-import br.com.softplan.main.service.api.veiculos.VeiculosService;
+import br.com.softplan.main.service.api.VeiculosService;
 import br.com.softplan.main.service.api.veiculos.Veiculo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

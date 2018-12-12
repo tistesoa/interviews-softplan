@@ -1,7 +1,7 @@
 package br.com.softplan.main.controller;
 
 import br.com.softplan.main.service.api.CalculaCustoService;
-import br.com.softplan.main.service.api.veiculos.VeiculosService;
+import br.com.softplan.main.service.api.VeiculosService;
 import br.com.softplan.main.service.api.commons.LogisticaDTO;
 import br.com.softplan.main.service.impl.carga.CargaPadrao;
 import org.springframework.beans.factory.annotation.Autowired;
