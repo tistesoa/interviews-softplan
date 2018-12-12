@@ -1,7 +1,6 @@
-# SOFTPLAN - Exercicio 1
+# SOFTPLAN - Exercício 1
 
-
-A.  Sistema de Cálculo de Custo de Logística de Caminhões
+### Sistema de Cálculo de Custo de Logística de Caminhões
 
 Este projeto tem como intenção de participar na avaliação para desenvolvedor de Software da Empresa Softplan.
 
