@@ -15,3 +15,4 @@ Este projeto tem como intenção de participar na avaliação para desenvolvedor
 mvn clean install
 java -jar calcula-custo-logistica-1.0.war
 ```
+Acessar a url localhost:8080 via brownser 
